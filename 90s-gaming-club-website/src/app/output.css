@@ -644,7 +644,7 @@ video {
 }
 
 .font-retro {
-  font-family: Press Start 2P;
+  font-family: "Press Start 2P", system-ui;
 }
 
 .text-2xl {

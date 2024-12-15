@@ -11,7 +11,7 @@ module.exports = {
         'neon-purple': '#8b00ff',
       },
       fontFamily: {
-        retro: ['Press Start 2P'],
+        retro: ['"Press Start 2P"', 'system-ui'],
       },
     },
   },

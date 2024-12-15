@@ -16,6 +16,17 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.full-image-2 {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 150%;
+  height: 150%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 .content {
   position: absolute; 
   top: 0;

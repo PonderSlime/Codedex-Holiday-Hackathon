@@ -14,6 +14,7 @@ export default function Home() {
         className="bg-neon-blue text-black px-6 py-3 rounded shadow-md hover:scale-110 transition-transform">
         Enter the Arcade
       </Link>
+      <img className="self-center mt-10 w-1/12 h-1/12" src="https://cloud-wfbie67fr-hack-club-bot.vercel.app/0image_from_ios_360.gif" />
     </div>
   )
 }

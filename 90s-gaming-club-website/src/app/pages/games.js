@@ -15,11 +15,16 @@ export default function Games() {
         {games_list.map((item) => (
           <div
             key={item.key}
-            className="bg-neon-purple text-black p-4 rounded shadow-md transform hover:scale-105 transition-transform"
+            className="text-black p-4 rounded shadow-md transform hover:scale-105 transition-transform flex items-center justify-center text-center grid grid-cols-1"
           >
-            <img src={item.image} classNam="absolute"/>
+            
+            <img className="w-1/4" src={item.image}/>
             <h2 className="text-2xl font-bold mb-2">{item.name}</h2>
             <p className="text-lg">Platform: {item.platform}</p>
+            <img src='https://www.pngall.com/wp-content/uploads/6/Comic-Speech-PNG-High-Quality-Image.png'
+              className="full-image-2"
+              alt='background-image'
+            />
           </div>
         ))}
       </div>

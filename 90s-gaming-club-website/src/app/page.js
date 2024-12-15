@@ -16,6 +16,12 @@ export default function App() {
         />
         <Home />
         <Games />
+        <div className="bg-neon-purple w-screen flex justify-center items-center mt-20">
+        <img src="https://cloud-c60agoswh-hack-club-bot.vercel.app/0pacman.gif" className="w-1/8 h-1/8" />
+          <img src="https://cloud-dm1fqxi2h-hack-club-bot.vercel.app/0image_from_ios.gif" className="w-1/8 h-1/8" />
+          
+          
+        </div>
       </div>
     </div>
   )

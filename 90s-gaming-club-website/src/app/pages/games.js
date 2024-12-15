@@ -9,7 +9,7 @@ const games_list = [
 
 export default function Games() {
   return (
-    <div className="bg-black text-white min-h-screen p-6 font-retro" id="games">
+    <div className="text-white min-h-screen p-6 font-retro" id="games">
       <h1 className="text-3xl md:text-5xl text-neon-green mb-6">Games Gallery</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {games_list.map((item) => (
@@ -17,7 +17,7 @@ export default function Games() {
             key={item.key}
             className="bg-neon-purple text-black p-4 rounded shadow-md transform hover:scale-105 transition-transform"
           >
-            <img src={item.image} />
+            <img src={item.image} classNam="absolute"/>
             <h2 className="text-2xl font-bold mb-2">{item.name}</h2>
             <p className="text-lg">Platform: {item.platform}</p>
           </div>

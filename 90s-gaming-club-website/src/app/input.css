@@ -4,18 +4,26 @@
 
 
 .container {
-  position: relative; /* To position content over the image */
+  position: relative;
 }
-
+.full-image {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .content {
   position: absolute; 
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* Add any necessary styling to make content visible on the background */
 }
-/* :root {
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -30,7 +38,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-} */
+}
 
 /*
 svg.fa-simple-velocity-browser-icon[data-prefix="simple-velocity"] {
